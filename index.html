@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>嵌入高德地图示例</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=80ef6b7a9b8fa9125a9e1a88efab3489"></script>
+</head>
+<body>
+    <div id="container" style="width: 1920px; height: 1080px;"></div>
+    <script>
+        // 初始化地图
+        var map = new AMap.Map('container', {
+            resizeEnable: true,
+            center: [116.397428, 39.90923], // 地图中心点坐标
+            zoom: 13 // 初始地图级别
+        });
+    </script>
+</body>
+</html>
